@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Graphel</title>
 </head>
+
 <body>
     <header>
-        <h1>Diseño 
+        <h1>Diseño
             <span>Multimedia</span>
         </h1>
+        <div class="nav">
+            <nav>
 
-        <nav>
-            
-            <a href="index.html">INICIO</a>
-            <a href="templates/Nosotros.html">NOSOTROS</a>
-            <a href="templates/Servicios.html">SERVICIOS</a>
-            <a href="templates/Contacto.html">CONTACTO</a>
-        
-        </nav>
+                <a id="inicio" href="#index.html">INICIO</a>
+                <a href="templates/Nosotros.html">NOSOTROS</a>
+                <a href="templates/Servicios.html">SERVICIOS</a>
+                <a href="templates/Contacto.html">CONTACTO</a>
+
+            </nav>
+        </div>
     </header>
     <section class="Expertos">
-        <h1>Expertos en Tecnologias Web</h1>
+        <h1> Expertos en Tecnologias Web</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ad reiciendis sit suscipit placeat.</p>
-        <img class="img1" src="assets/img1.jpg" alt="coffee">
     </section>
-    <section>
-        <h1>Suscribete a nuestro boletin</h1>
-        <button type="button">Suscribete</button>
+    <section class="Subscribete">
+        <div>
+        <h1>Subscríbete a nuestro boletín</h1>
+    </div>
+    <div>   
+    <input class="email" type="Email" placeholder="Ingrese el Email...">
+    <input class="submit" type="Submit" value = "Subscribete">
+    </div> 
     </section>
+    <div>
     <section class="logos">
         <img src="assets/html.png" alt="logo html">
         <img src="assets/css.png" alt="logo css">
@@ -38,8 +46,10 @@
         <p>CSS3</p>
         <p>Diseño Grafico</p>
     </section>
+</div>
     <footer>
         <p>Graphel Desarrollo Web, Copyright &copy; 2025 Miguel Ángel</p>
     </footer>
 </body>
+
 </html>
