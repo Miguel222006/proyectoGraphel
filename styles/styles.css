@@ -90,17 +90,24 @@ header h1 {
 
 .logos {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 20px;
     background-color: white;
+    padding-top: 50px;
 }
 
-.logos p {
-    display: flex;
-    justify-content: center;
+.html5 p{
+    text-align: center;
 }
 
+.css3 p{
+    text-align: center;
+}
+
+.diseño p{
+    text-align: center;
+}
 /* .registro{
     display:flex;
     justify-content:space-between;
