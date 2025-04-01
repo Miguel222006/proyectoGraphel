@@ -49,6 +49,10 @@ header h1 {
 #servicios{
     color: #1293D4;
 }
+
+#contacto{
+    color:#1293D4
+}
 .Expertos {
     background: url(../assets/img1.jpg);
     padding: 10%;
@@ -163,6 +167,7 @@ footer{
 }
 
 .queHacemos{
+    
     width: 25%;
     color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
@@ -171,6 +176,33 @@ footer{
 .colorD{
     background-color: #35424a;
     padding: 20px;
+}
+
+.servicios{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 120px;
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+.price{
+    background-color: #E6E6E6;
+    margin-top: 6px;
+    margin-left: 10%;
+    margin-right: 40%;
+    padding: 2%;
+}
+
+.colum{
+    display: flex;
+    flex-direction:column;
+}
+
+.services{
+    margin-top: 20px;
+    margin-left: 10%;
 }
 /* .registro{
     display:flex;
